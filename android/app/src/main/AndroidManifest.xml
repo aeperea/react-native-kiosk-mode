@@ -6,6 +6,8 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
 
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
     <uses-sdk
         android:minSdkVersion="16"
         android:targetSdkVersion="22" />
@@ -25,6 +27,12 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
       </activity>
+
+      <receiver android:name=".BootReceiver">
+          <intent-filter >
+              <action android:name="android.intent.action.BOOT_COMPLETED"/>
+          </intent-filter>
+      </receiver>
       <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
     </application>
 
