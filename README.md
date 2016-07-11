@@ -14,5 +14,5 @@ return true;
 
 To test the auto reboot in case of crash, or delete the whole section SO YOU CAN LEAVE THE APP.
 
-You can find more information on the original article by Alejandro Perea <- that's me! 
+You can find more information on the [ original article ](https://medium.com/@aeperea/setting-up-an-android-app-with-react-native-in-kiosk-mode-e062b309db71) by [Alejandro Perea](http://alejandroperea.me/) <- that's me! 
 
