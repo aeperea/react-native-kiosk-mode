@@ -3,7 +3,7 @@
 Hi! This is a simple demo project to show how to build a basic app in Kiosk Mode.
 
 
-Run npm install an
+Run `npm install`
 
 Also, you might wanna play with the lines 
 
